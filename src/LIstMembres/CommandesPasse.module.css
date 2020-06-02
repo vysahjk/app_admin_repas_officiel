@@ -1,0 +1,44 @@
+.content_compte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+.border_div:nth-child(n){
+  border: 1px solid rgb(221, 216, 216);
+}
+
+.table_nested{
+  width: 600px;
+  height: 45px;
+  border: none !important;
+}
+
+.table_td{
+  background-color: black;
+  border: none !important;
+}
+
+.title_table{
+  padding-top: 20px !important;
+}
+
+.title_table_nested{
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle_nested{
+  margin-top: 15px;
+  border-bottom: none !important;
+}
+
+.modal_content{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

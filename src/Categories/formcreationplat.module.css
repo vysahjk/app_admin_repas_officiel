@@ -1,0 +1,17 @@
+
+.form_creation_plat{
+  width: 100vw;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+  
+}
+
+.modal_content{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

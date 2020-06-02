@@ -1,0 +1,76 @@
+
+.categorie{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  transition: all .2s;
+}
+
+.categorie:hover {
+  background-color: #303363;
+  color: white;
+}
+
+.btn_cat{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn_cat:hover{
+  background-color: #042331;
+  color: white;
+}
+
+.btn_delete{
+  background-color: lightblue;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  transition: all .2s;
+}
+
+.btn_delete:hover {
+  background-color: #963f3f;
+  color: white;
+}
+
+.input_plus{
+  margin: 10px;
+  min-width: 200px;
+}
+
+.title_plats{
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_plats{
+  margin: 12px;
+  column-count: 1;
+}
+
+.info_plat{
+  margin: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_manager_content{
+  height: 70vh;
+  
+}
+
+.list_categories{
+  column-gap: 10px;
+  column-count: 1;
+}

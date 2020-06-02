@@ -1,0 +1,47 @@
+.content_container{
+  padding-left: 100px;
+}
+
+.chart{
+  width: 100%;
+}
+
+.header{
+  padding-left: 15px;
+  margin: 25px 0px;
+  width: 93vw;
+  height: 65px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.card {
+  cursor: pointer;
+  width: 300px;
+  margin: 15px;
+  transition: .2s all ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.image{
+  width: 200px;
+}
+
+.card_content{
+  height: 170px; 
+  width: 280px;
+}
+
+.media_content{
+  padding: 2px;
+}
+
+.margin_top{
+  margin-top: 100px;
+}

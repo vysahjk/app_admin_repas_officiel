@@ -1,0 +1,10 @@
+{
+  apps : [
+    {
+      name      : "app_client_repas",
+      script    : "npx",
+      interpreter: "none",
+      args: "serve -p 8000 -s build"
+    }
+  ]
+}

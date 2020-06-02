@@ -1,0 +1,70 @@
+.intranet{
+  height: 100%;
+}
+.sidebar{
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 55px;
+  height:100vh;
+  background-color: #042331;
+  text-align: start;
+  transition: all .4s ease;
+  overflow: hidden;
+  padding: 0;
+}
+
+.sidebar:hover{
+  width: 250px;
+}
+
+.menu_label{
+  margin-top: 20px;
+  width: 250px;
+}
+
+.icon_sidebar{
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+.sidebar ul a:hover{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.sidebar ul li{
+  color: white;
+  width: 250px;
+  overflow: hidden;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.sidebar ul li a {
+  width: 250px;
+  height: 100%;
+  color: white;
+  font-size: 1rem;
+  padding-left: 10px;
+  transition: .5s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar ul li:hover a{
+  padding-left: 20px;
+}
+
+.item {
+  transition: all .3s;
+}
+
+.item:hover{
+  background-color: #031924;
+}

@@ -1,0 +1,41 @@
+.header{
+  width: 93vw;
+  padding-left: 15px;
+  margin: 25px 0px;
+  height: 65px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dropzone{
+  border: 1px dashed black;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.content_container{
+  padding: 0px 100px;
+}
+
+.steper{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition : transform 1s ease-in-out;
+}
+
+.header{
+  padding-left: 15px;
+  margin: 25px 0px;
+  height: 65px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

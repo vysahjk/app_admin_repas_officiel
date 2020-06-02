@@ -1,0 +1,22 @@
+
+.modal_content{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.dropzone{
+  border: 1px dashed black;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border: 2px solid salmon;
+  border-style: dashed;
+}
