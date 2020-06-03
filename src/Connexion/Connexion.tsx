@@ -49,7 +49,7 @@ class Connexion extends Component<any, any> {
                   onChange={(e) => this.setState({ membre: e.target.value })}
                  />
                 <span className="icon is-small is-left">
-                  <i className="fas fa-envelope"></i>
+                  <i className="fas fa-user"></i>
                 </span>
                 <span className="icon is-small is-right">
                   <i className="fas fa-exclamation-triangle"></i>
